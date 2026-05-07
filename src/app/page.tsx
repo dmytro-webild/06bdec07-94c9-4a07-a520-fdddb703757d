@@ -74,7 +74,7 @@ export default function LandingPage() {
       title="Playful Collection"
       description="Find the perfect creative adventure for your little artist."
       products={[
-        { id: "1", name: "Animal Kingdom", price: "$12.99", variant: "Fun", imageSrc: "http://img.b2bpic.net/free-photo/3d-cartoon-apple_23-2151800350.jpg" },
+        { id: "1", name: "Animal Kingdom", price: "$12.99", variant: "Fun", imageSrc: "http://img.b2bpic.net/free-photo/3d-cartoon-apple_23-2151800350.jpg?_wi=1" },
         { id: "2", name: "Magical Forest", price: "$14.99", variant: "Dreamy", imageSrc: "http://img.b2bpic.net/free-photo/colorful-giraffe-forest-illustration_23-2151983363.jpg" },
         { id: "3", name: "Space Explorers", price: "$11.99", variant: "Cool", imageSrc: "http://img.b2bpic.net/free-photo/girl-with-some-books_23-2147783657.jpg" }
       ]}
@@ -125,7 +125,7 @@ export default function LandingPage() {
         { id: "1", title: "Is the paper safe?", content: "Yes, our paper is premium and non-toxic." },
         { id: "2", title: "Do you ship fast?", content: "We ship within 24 hours to your door." }
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/3d-cartoon-apple_23-2151800350.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/3d-cartoon-apple_23-2151800350.jpg?_wi=2"
     />
   </div>
 
