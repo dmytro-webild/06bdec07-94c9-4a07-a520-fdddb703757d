@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import AboutMetric from '@/components/sections/about/AboutMetric';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -104,8 +103,8 @@ export default function LandingPage() {
       textboxLayout="split-description"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Sarah J.", role: "Parent", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shouting-girl-wearing-flower-basket_23-2148442606.jpg" },
-        { id: "2", name: "Mike D.", role: "Father", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/father-son-drawing-together-floor_23-2148511507.jpg" }
+        { id: "1", name: "Sarah J.", role: "Parent", company: "Happy Parent", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/shouting-girl-wearing-flower-basket_23-2148442606.jpg" },
+        { id: "2", name: "Mike D.", role: "Father", company: "Happy Parent", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/father-son-drawing-together-floor_23-2148511507.jpg" }
       ]}
       kpiItems={[
         { value: "10k+", label: "Happy Kids" },
@@ -121,6 +120,7 @@ export default function LandingPage() {
       description="Find answers to your questions here!"
       faqsAnimation="slide-up"
       textboxLayout="split-description"
+      useInvertedBackground={false}
       faqs={[
         { id: "1", title: "Is the paper safe?", content: "Yes, our paper is premium and non-toxic." },
         { id: "2", title: "Do you ship fast?", content: "We ship within 24 hours to your door." }
